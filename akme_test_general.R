@@ -92,8 +92,7 @@ prep_aKME <- function(ddim, sigmas, n_linear=4, seed=1234) {
 #data dimensionality
 ddim = 3 
 #we use several Gaussian widths at once
-#one can repeat the same sigma to get multiple random 
-#radial frames for the same sigma
+#one can repeat the same sigma to get multiple random radial frames for the same sigma
 sigma_list = c(1 / 16, 1 / 8, 1 / 4)
 get_aKME = prep_aKME(ddim, sigma_list)
 
